@@ -1,0 +1,38 @@
+.row {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.poster_image {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+  border-radius: 0.2rem;
+}
+
+.row_poster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_poster::-webkit-scrollbar {
+  display: none;
+}
+
+.poster_image:hover {
+  transform: scale(1.08);
+}
+
+.poster_large {
+  max-height: 250px;
+}
+
+.youtube {
+  height: 28rem;
+  object-fit: contain;
+  transition: all 0.4s ease-in;
+}
